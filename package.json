@@ -1,0 +1,33 @@
+{
+  "name": "miniapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack -d --mode development",
+    "start": "nodemon server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chart.js": "^2.8.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
